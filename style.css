@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    background: #f2f2f2;
+
+
+}
+.heading
+{
+    background: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top:3px solid limegreen;
+    border-bottom:8px solid lightyellow; 
+    border-left:3px solid limegreen; 
+    border-right:8px solid lightyellow; 
+    box-shadow: 0 0 10px  rgba(0,0,0,10);
+
+
+}
+.heading h2
+{
+    font-size: 25px ;
+    line-height: 25px;
+    padding: 30px;
+    text-align: center;
+}
+
+.input-name
+{
+    width: 100%;
+    position: relative;
+    margin: 25px auto;
+
+}
+.fa-user /*To get spaces blw the border and user pic*/
+{
+    padding: 8px 11px;
+}
+.lock/*same as fa-user*/
+{
+    padding:8px 11px; 
+}
+.fa-envelope/*same as fa-user(we can take any class name which is present in that lines*/
+{
+    padding: 8px ;
+}
+
+.name
+{
+    width:45%;
+    padding:8px 0 8px 40px;
+
+}
+.input-name span
+{
+    margin-left: 35px;
+}
+.t-name
+{
+    width:100% ;
+    padding: 8px 0px 8px 40px;
+    
+
+}
+.input-name i{
+    position:absolute;
+    font-size: 18px;
+    color:limegreen;
+    border-right: 1px solid #cccccc;
+    
+}
+.t-name, .name
+{
+border: 1px solid #cccccc;
+outline: none;
+}
+.t-name:hover, .name:hover
+{
+    background-color:#fafafa ;
+}
+.t-name:focus, .name:focus
+{
+    border: 1px solid blue;
+}
+.radio-button
+{
+    margin-left: 20px;
+    margin-right:5px ;
+    
+}
+.country
+{
+    display: inline-block;
+    width: 100%;
+    height:30px ;
+    padding:0px 15px ;
+    cursor:pointer;
+    border: 1px solid #cccccc;
+    color: #7b7b7b;
+    appearance:none ;
+    
+
+
+}
+.submit-button
+{
+    width: 100%;
+    height:35px ;
+    border: 1px solid #cccccc;
+    color: #7b7b7b;
+    background-color:limegreen;
+    font-size: 15px;
+
+    
+}
